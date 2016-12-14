@@ -1,0 +1,36 @@
+<div class="knowLadge-block">
+    <div class="actions-win">
+        <span class="knowTextStr"><%=knowTextStr%></span>
+        <span class="btn addknowLadge">添加知识点</span>
+        <div class="pop-knowLadge">
+            <div class="search">
+                <input type="text" class="searchinput" placeholder="输入知识点关键字" /><span class=" btn btnsearch">搜索</span>
+            </div>
+            <div class="tree-content">
+                <span class="title">已添加知识点</span><br/>
+                <ul class="knowLadge-group">
+                    <% for(var i =0,len =knowTextArr.length;i<len;i++){
+                      var item = knowTextArr[i];
+                    %>
+                        <li class="knowLadge-textblock">
+                            <span class="knowLadge-text"><%=item.name%></span><span class="knowLadgeDel" data-index=<%=i%>  data-keyid=<%=item.id%> >X</span>
+                        </li>
+                        <%}%>
+                </ul>
+                <span class="title">新添加知识点</span><br/>
+                <span class="selected-kldage"></span>
+                <span class="title">目录</span><br/>
+                <ul class="knowLadge-tree ztree"></ul>
+            </div>
+            <div class="btn-group">
+                <span class="btn reset">清空</span>
+                <span class="btn cancel">取消</span>
+                <span class="btn knowledge-confirm">确定</span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
