@@ -10,6 +10,6 @@
 
 
  </pre>
- ![image](https://github.com/webdzq/plugins/raw/master/compt/img/knowledge.png)
+ ![image](https://github.com/webdzq/plugins/tree/master/compt/img/knowledge.png)
  <br/>
 </p>
