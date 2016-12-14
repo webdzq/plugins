@@ -6,8 +6,8 @@
 [2]对于庞大的数据，提供了查询功能。
 [3]本组件搭建在fis+Backbone+jquery上的。依赖ztree.js，并不影响最宝贵的思路(哈~)。
 [4]主要是json数据处理，只有叶子节点才有chenkbox。数组的应用（数组是js中最重要的数据结构）。
-</pre>
 [5]成品截图：<br/>
 
- ![image](https://github.com/webdzq/plugins/raw/master/compt/knowledge.png)<br/>
+ ![image](https://github.com/webdzq/plugins/raw/master/compt/img/knowledge.png)<br/>
+ </pre>
 </p>
