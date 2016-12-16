@@ -8,6 +8,10 @@
 [4]主要是json数据处理，只有叶子节点才有chenkbox。数组的应用（数组是js中最重要的数据结构）。
 [5]成品截图：<br/>
  </pre>
+ ![image](https://github.com/webdzq/webdemo/raw/master/canvas_demo/canvasimg.png)<br/>
  ![image](https://github.com/webdzq/plugins/raw/master/compt/img/knowledge.png)
  <br/>
 </p>
+![image](https://github.com/webdzq/webdemo/raw/master/canvas_demo/canvasimg.png)<br/>
+![image](https://github.com/webdzq/plugins/raw/master/compt/img/knowledge.png)
+<br/>
