@@ -1,8 +1,8 @@
 {
     "name": "wpy-beautify",
     "displayName": "wpy-beautify",
-    "description": "Beautify wpy code in place for vscode",
-    "version": "2.0.6",
+    "description": "Beautify wpy/vue code in place for vscode",
+    "version": "2.0.7",
     "publisher": "doingweb",
     "engines": {
         "vscode": "^1.10.0"
