@@ -55,7 +55,7 @@ Use the following to embed a beautify shortcut in keybindings.json. Replace with
 
 
 ## Github
-[https://github.com/webdzq/plugins/wpy-beautify](https://github.com/webdzq/plugins/wpy-beautify)
+[https://github.com/webdzq/plugins/raw/master/wpy-beautify](https://github.com/webdzq/plugins/raw/master/wpy-beautify)
 
 ## 参考工具：
 
