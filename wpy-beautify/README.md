@@ -30,7 +30,7 @@ Use the following to embed a beautify shortcut in keybindings.json. Replace with
     }
 ```
 ## ps
-最近做小程序开发，使用到了wepy框架。wpy的文件都是用vue的高亮规则，配置[首选项]-[设置]:
+最近做微信小程序开发，使用到了wepy框架。wpy的文件都是用vue的高亮规则，配置[首选项]-[设置]:
 ```json
 "files.associations": {
         "*.vue": "vue",
@@ -58,5 +58,3 @@ Use the following to embed a beautify shortcut in keybindings.json. Replace with
 [https://github.com/webdzq/plugins/wpy-beautify](https://github.com/webdzq/plugins/wpy-beautify)
 
 ## 参考工具：
-
-[https://github.com/peakchen90/vue-beautify](https://github.com/peakchen90/vue-beautify)
