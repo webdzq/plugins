@@ -59,5 +59,6 @@ Use the following to embed a beautify shortcut in keybindings.json. Replace with
 
 ## 参考工具：
 
-[http://www.360doc.com/content/16/0720/13/7534118_577013143.shtml](vscode插件开发)
+[vscode插件开发文档](http://www.360doc.com/content/16/0720/13/7534118_577013143.shtml)<br/>
+
 [https://github.com/peakchen90/vue-beautify](https://github.com/peakchen90/vue-beautify)
