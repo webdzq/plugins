@@ -1,0 +1,80 @@
+{
+    "name": "wpy-beautify",
+    "displayName": "wpy-beautify",
+    "description": "Beautify wpy code in place for vscode",
+    "version": "2.0.3",
+    "publisher": "doing",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Formatters"
+    ],
+    "icon": "source/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/webdzq/plugins/wpy-beautify"
+    },
+    "bugs": {
+        "url": "https://github.com/webdzq/plugins/wpy-beautify/issues"
+    },
+    "keywords": [
+        "wpy",
+        "vue",
+        "format",
+        "beautify",
+        "wpy-format",
+        "wpy-beautify"
+    ],
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test",
+        "pub": "vsce publish patch"
+    },
+    "activationEvents": [
+        "onCommand:wpyBeautify.format"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "keybindings": [{
+            "command": "wpyBeautify.format",
+            "key": "ctrl+shift+6",
+            "mac": "cmd+shift+6",
+            "linux": "ctrl+shift+6",
+            "when": "resourceLangId=='vue' && editorTextFocus && editorTextFocus && !editorReadonly"
+        }],
+        "configuration": {
+            "title": "wpyBeautify Options",
+            "properties": {
+                "wpyBeautify.isRootIndent": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "whether indent on tag of template or script or style"
+                }
+            }
+        },
+        "commands": [{
+            "command": "wpyBeautify.format",
+            "title": "Beautify wpy"
+        }],
+        "menus": {
+            "editor/context": [{
+                "when": "editorLangId == vue",
+                "command": "wpyBeautify.format",
+                "group": "1_modification"
+            }]
+        }
+    },
+    "devDependencies": {
+        "@types/mocha": "^2.2.32",
+        "@types/node": "^6.0.40",
+        "eslint": "^3.6.0",
+        "mocha": "^2.3.3",
+        "typescript": "^2.0.3",
+        "vscode": "^1.0.0"
+    },
+    "dependencies": {
+        "js-beautify": "^1.6.11",
+        "pug-beautify": "^0.1.1"
+    }
+}
