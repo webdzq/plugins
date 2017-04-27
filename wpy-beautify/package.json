@@ -3,7 +3,7 @@
     "displayName": "wpy-beautify",
     "description": "Beautify wpy code in place for vscode",
     "version": "2.0.3",
-    "publisher": "doing",
+    "publisher": "doingweb",
     "engines": {
         "vscode": "^1.10.0"
     },
@@ -13,18 +13,16 @@
     "icon": "source/icon.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/webdzq/plugins/wpy-beautify"
+        "url": "https://github.com/webdzq/plugins/tree/master/wpy-beautify"
     },
     "bugs": {
-        "url": "https://github.com/webdzq/plugins/wpy-beautify/issues"
+        "url": "https://github.com/webdzq/plugins/tree/master/wpy-beautify/issues"
     },
     "keywords": [
-        "wpy",
         "wepy",
         "vue",
         "format",
         "beautify",
-        "wpy-format",
         "wpy-beautify"
     ],
     "scripts": {
