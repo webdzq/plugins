@@ -58,3 +58,6 @@ Use the following to embed a beautify shortcut in keybindings.json. Replace with
 [https://github.com/webdzq/plugins/wpy-beautify](https://github.com/webdzq/plugins/wpy-beautify)
 
 ## 参考工具：
+
+[http://www.360doc.com/content/16/0720/13/7534118_577013143.shtml](vscode插件开发)
+[https://github.com/peakchen90/vue-beautify](https://github.com/peakchen90/vue-beautify)
