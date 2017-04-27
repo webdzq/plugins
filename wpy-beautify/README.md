@@ -48,7 +48,7 @@ Use the following to embed a beautify shortcut in keybindings.json. Replace with
 2. 使用快捷键`shift+cmd+6`格式化 ;
 3. 可以使用`shift+cmd+p`调出命令窗口，然后输入`wpy`，按`回车`生效。
 4. 可以在当前文件窗口，鼠标右击菜单中选择`beautify wpy`。
-5. 本插件未上传vscode的官网。可以手动安装目录下`.vsix`文件。（扩展管理器-》从VSIX安装，然后重启vscode）
+5. 本插件已上传vscode的官网。也可以手动安装目录下`.vsix`文件。（扩展管理器-》从VSIX安装，然后重启vscode）
 6. vscode插件开发方法网上有很多栗子。如：https://segmentfault.com/a/1190000008968904#articleHeader3
 7. gif动画工具，mac上使用的是`LICEcap for mac`。
 8. 版本号与参考时vue-beautify的一致。
