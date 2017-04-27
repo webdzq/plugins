@@ -1,4 +1,4 @@
-# wepy-beautify for vscode
+# wpy/vue-beautify for vscode
 
 ## Features
 

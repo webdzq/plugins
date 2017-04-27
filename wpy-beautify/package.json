@@ -2,7 +2,7 @@
     "name": "wpy-beautify",
     "displayName": "wpy-beautify",
     "description": "Beautify wpy code in place for vscode",
-    "version": "2.0.5",
+    "version": "2.0.6",
     "publisher": "doingweb",
     "engines": {
         "vscode": "^1.10.0"
