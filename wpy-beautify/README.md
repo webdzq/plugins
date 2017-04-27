@@ -4,7 +4,7 @@
 
 Beautify Vue or wpy code in Visual Studio Code.
 
-![preview](source/preview.gif)
+![preview](https://github.com/webdzq/plugins/raw/master/wpy-beautify/source/preview.gif)
 
 ## Usage
 
@@ -16,7 +16,7 @@ Beautify Vue or wpy code in Visual Studio Code.
 
 The wpy-beautify's indent option according to the textEditor's indent option, like this: 
 
-![indent option](source/indent-option.png)
+![indent option](https://github.com/webdzq/plugins/raw/master/wpy-beautify/source/indent-option.png)
 
 ## Keyboard Shortcut
 
