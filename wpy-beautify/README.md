@@ -25,7 +25,7 @@ Use the following to embed a beautify shortcut in keybindings.json. Replace with
 ```json
     {
       "key": "ctrl+shift+6",          
-      "command": "extension.wpyBeautify",
+      "command": "wpyBeautify.format",
       "when": "editorTextFocus && !editorReadonly" 
     }
 ```
