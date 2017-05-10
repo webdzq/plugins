@@ -1,0 +1,4 @@
+node_modules
+dist
+.svn
+.DS_Store

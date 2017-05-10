@@ -1,0 +1,42 @@
+<style lang="less">
+  page {
+    background-color: #FFFFFF;
+  }
+</style>
+
+<template>
+  <view class="page">
+    <view class="page__hd">
+      <view class="page__title">Toast</view>
+      <view class="page__desc">弹出式提示，采用小程序原生的toast</view>
+    </view>
+    <view class="page__bd">
+      <view class="weui-btn-area">
+        <button class="weui-btn" type="default" @tap="openToast">成功提示</button>
+        <button class="weui-btn" type="default" @tap="openLoading">加载中提示</button>
+      </view>
+    </view>
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+  export default class Toast extends wepy.page {
+    methods = {
+      openToast() {
+        wepy.showToast({
+          title: '已完成',
+          icon: 'success',
+          duration: 3000
+        })
+      },
+      openLoading() {
+        wepy.showToast({
+          title: '数据加载中',
+          icon: 'loading',
+          duration: 3000
+        })
+      }
+    }
+  }
+</script>
